@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import counterImg from './components/counter/counter-img.png';
 import calculatorImg from './components/calculator/calculator-img.png'
+import formImg from './components/form/Form-img.png'
 import './Gallery.css'
 
 const Gallery = () => {
     const items = [
         { id: 1, title: 'Counter', imageUrl: counterImg, link: '/counter' },
         { id: 2, title: 'Calculator', imageUrl: calculatorImg, link: '/calculator' },
-        { id: 2, title: 'Form', imageUrl: calculatorImg, link: '/form' },
+        { id: 2, title: 'Form', imageUrl: formImg, link: '/form' },
         
         // Add more items as needed
       ];
