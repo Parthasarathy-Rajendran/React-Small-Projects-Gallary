@@ -8,8 +8,8 @@ const Gallery = () => {
     const items = [
         { id: 1, title: 'Counter', imageUrl: counterImg, link: '/counter' },
         { id: 2, title: 'Calculator', imageUrl: calculatorImg, link: '/calculator' },
-        { id: 3, title: 'Image 2', imageUrl: 'https://via.placeholder.com/150', link: '/image2' },
-        { id: 4, title: 'Image 3', imageUrl: 'https://via.placeholder.com/150', link: '/image3' },
+        { id: 2, title: 'Form', imageUrl: calculatorImg, link: '/form' },
+        
         // Add more items as needed
       ];
       return (
