@@ -1,0 +1,71 @@
+.calculator{
+    width: 360px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #2e2e2e, #1c1c1c);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+
+}
+.display{
+    height: 70px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    background-color: #2e2e2e;
+    border-radius:12px;
+    color: #ffffff;
+    text-align: right;
+    font-size: 32px;
+    font-weight: bold;
+    box-shadow: inset 5px 5px 10px #1a1a1a, inset -5px -5px 10px #363636;
+    overflow-x: auto;
+    
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.buttons button {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #3a3a3a, #323232);
+    color: #ffffff;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 15px #1a1a1a, -5px -5px 15px #444;
+  }
+  
+  .buttons button:active {
+    transform: scale(0.95);
+    box-shadow: inset 5px 5px 15px #1a1a1a, inset -5px -5px 15px #444;
+  }
+  
+  .buttons button:hover {
+    background: linear-gradient(145deg, #464646, #3e3e3e);
+  }
+  
+  .buttons button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #aaa;
+  }
+  
+  .buttons button:nth-child(4n) {
+    background: linear-gradient(145deg, #ff7e00, #e56c00);
+  }
+  
+  .buttons button:nth-child(4n):hover {
+    background: linear-gradient(145deg, #ff8c1a, #e5771a);
+  }
+  
+  .buttons button:nth-last-child(2) {
+    grid-column: span 2;
+    background: linear-gradient(145deg, #e74c3c, #c0392b);
+  }
+  
+  .buttons button:nth-last-child(2):hover {
+    background: linear-gradient(145deg, #ee5a4f, #d1483c);
+  }
